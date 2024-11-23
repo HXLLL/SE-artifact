@@ -1,31 +1,22 @@
 language,category,category_prevalence,subcategory,subcategory_percentage
-Python,Convention,260/268,C0103,23.4%
-Python,Convention,260/268,C0301,19.9%
-Python,Convention,260/268,C0116,19.3%
-Python,Warning,258/268,W0311,58.4%
-Python,Warning,258/268,W0611,6.5%
-Python,Warning,258/268,W0621,5.0%
-Python,Refactor,254/268,R1732,13.1%
-Python,Refactor,254/268,R0914,10.9%
-Python,Refactor,254/268,R1705,9.9%
-Java,Best Practices,144/144,SystemPrintln,15.8%
-Java,Best Practices,144/144,LooseCoupling,8.7%
-Java,Best Practices,144/144,UnusedAssignment,8.7%
-Java,Multithreading,134/144,DoNotUseThreads,34.9%
-Java,Multithreading,134/144,UseConcurrentHashMap,32.4%
-Java,Multithreading,134/144,AvoidSynchronizedAtMethodLevel,21.4%
-Java,Code Style,144/144,LocalVariableCouldBeFinal,26.5%
-Java,Code Style,144/144,MethodArgumentCouldBeFinal,22.2%
-Java,Code Style,144/144,ShortVariable,11.5%
-Java,Design,144/144,LawOfDemeter,29.3%
-Java,Design,144/144,CyclomaticComplexity,8.6%
-Java,Design,144/144,CognitiveComplexity,6.7%
-Java,Documentation,144/144,CommentSize,49.8%
-Java,Documentation,144/144,CommentRequired,48.7%
-Java,Documentation,144/144,UncommentedEmptyMethodBody,1.2%
-Java,Error Prone,140/144,AvoidLiteralsInIfCondition,22.1%
-Java,Error Prone,140/144,AvoidDuplicateLiterals,10.7%
-Java,Error Prone,140/144,DetachedTestCase,9.0%
-Java,Performance,141/144,AvoidInstantiatingObjectsInLoops,37.8%
-Java,Performance,141/144,RedundantFieldInitializer,16.7%
-Java,Performance,141/144,ConsecutiveAppendsShouldReuse,8.9%
+Java,Best Practices,1/1,JUnit4TestShouldUseTestAnnotation,37.6%
+Java,Best Practices,1/1,MissingOverride,22.1%
+Java,Best Practices,1/1,SystemPrintln,20.7%
+Java,Multithreading,1/1,UseConcurrentHashMap,75.0%
+Java,Multithreading,1/1,UseNotifyAllInsteadOfNotify,16.7%
+Java,Multithreading,1/1,AvoidSynchronizedAtMethodLevel,8.3%
+Java,Code Style,1/1,ShortClassName,25.8%
+Java,Code Style,1/1,ShortMethodName,18.3%
+Java,Code Style,1/1,AtLeastOneConstructor,13.6%
+Java,Design,1/1,SignatureDeclareThrowsException,34.7%
+Java,Design,1/1,AbstractClassWithoutAnyMethod,28.2%
+Java,Design,1/1,MutableStaticState,13.8%
+Java,Documentation,1/1,CommentRequired,88.1%
+Java,Documentation,1/1,UncommentedEmptyMethodBody,10.6%
+Java,Documentation,1/1,CommentSize,0.9%
+Java,Error Prone,1/1,AvoidDuplicateLiterals,20.0%
+Java,Error Prone,1/1,AvoidLiteralsInIfCondition,14.3%
+Java,Error Prone,1/1,MissingStaticMethodInNonInstantiatableClass,11.4%
+Java,Performance,1/1,AvoidInstantiatingObjectsInLoops,75.7%
+Java,Performance,1/1,AvoidFileStream,11.4%
+Java,Performance,1/1,OptimizableToArrayCall,8.6%
